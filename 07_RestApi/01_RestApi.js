@@ -130,7 +130,3 @@ app.delete('/user/:userId', async (req, res) => {
         res.status(500).json("Internal server error");
     }
 });
-
-function _getUsers() {
-
-}
